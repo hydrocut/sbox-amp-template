@@ -8,11 +8,17 @@
     "SkipOnFailure": false
   },
   {
-    "UpdateStageName": "Set Linux Executable Permission",
+    "UpdateStageName": "Make Linux launcher executable",
     "UpdateSourcePlatform": "Linux",
-    "UpdateSource": "Executable",
-    "UpdateSourceData": "/bin/bash",
-    "UpdateSourceArgs": "-c \"chmod +x \\\"{{$FullBaseDir}}sbox-server.exe\\\" 2>/dev/null || true\"",
+    "UpdateSource": "SetExecutableFlag",
+    "UpdateSourceArgs": "{{$FullBaseDir}}sbox-server.sh",
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Make Linux apphost executable",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "SetExecutableFlag",
+    "UpdateSourceArgs": "{{$FullBaseDir}}sbox-server.exe",
     "SkipOnFailure": true
   }
 ]
