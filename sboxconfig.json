@@ -1,7 +1,7 @@
 [
   {
     "DisplayName": "Server Port",
-    "Category": "s&box:stadia_controller",
+    "Category": "SBox:stadia_controller",
     "Subcategory": "Server:dns:1",
     "Description": "Port used to host the s&box server.",
     "Keywords": "port,server,game",
@@ -14,7 +14,7 @@
   },
   {
     "DisplayName": "Query Port",
-    "Category": "s&box:stadia_controller",
+    "Category": "SBox:stadia_controller",
     "Subcategory": "Server:dns:1",
     "Description": "Port used to query server information such as player count and current map.",
     "Keywords": "port,query,steam",
@@ -27,7 +27,7 @@
   },
   {
     "DisplayName": "Server Name",
-    "Category": "s&box:stadia_controller",
+    "Category": "SBox:stadia_controller",
     "Subcategory": "Server:dns:1",
     "Description": "Name displayed for the dedicated server.",
     "Keywords": "server,name,hostname",
@@ -35,13 +35,13 @@
     "InputType": "text",
     "ParamFieldName": "hostname",
     "IncludeInCommandLine": false,
-    "DefaultValue": "s&box Server - Powered by AMP",
+    "DefaultValue": "SBox Server - Powered by AMP",
     "Placeholder": "My Dedicated Server",
     "EnumValues": {}
   },
   {
     "DisplayName": "Game Package",
-    "Category": "s&box:stadia_controller",
+    "Category": "SBox:stadia_controller",
     "Subcategory": "Game:extension:2",
     "Description": "Package identifier of the game to load. Default is Facepunch Sandbox.",
     "Keywords": "game,package,gamemode",
@@ -56,7 +56,7 @@
   },
   {
     "DisplayName": "Map Package",
-    "Category": "s&box:stadia_controller",
+    "Category": "SBox:stadia_controller",
     "Subcategory": "Game:extension:2",
     "Description": "Optional map package identifier passed after the game package.",
     "Keywords": "map,package,level",
@@ -70,7 +70,7 @@
   },
   {
     "DisplayName": "Game Server Token",
-    "Category": "s&box:stadia_controller",
+    "Category": "SBox:stadia_controller",
     "Subcategory": "Steam:key:3",
     "Description": "Optional Steam game server token. Leave blank unless you need a stable Steam server identity.",
     "Keywords": "token,steam,net_game_server_token",
@@ -84,7 +84,7 @@
   },
   {
     "DisplayName": "Custom Server Args",
-    "Category": "s&box:stadia_controller",
+    "Category": "SBox:stadia_controller",
     "Subcategory": "Advanced:tune:4",
     "Description": "Extra startup arguments/convars appended to the command line. Example: +maxplayers 16, if supported by your game/package.",
     "Keywords": "custom,args,convars,advanced",
