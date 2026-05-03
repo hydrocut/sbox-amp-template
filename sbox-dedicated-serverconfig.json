@@ -1,0 +1,67 @@
+[
+    {
+        "DisplayName": "Server Name",
+        "Category": "Server Settings",
+        "Description": "Nom affiché du serveur.",
+        "Keywords": "server,name,hostname",
+        "FieldName": "ServerName",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerName",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "TeamKit SBox Server",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Game Package",
+        "Category": "Game Settings",
+        "Description": "Package du jeu à charger.",
+        "Keywords": "game,package,gamemode",
+        "FieldName": "GamePackage",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GamePackage",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "facepunch.sandbox",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Map Package",
+        "Category": "Game Settings",
+        "Description": "Map/package à charger après le game package.",
+        "Keywords": "map,package,level",
+        "FieldName": "MapPackage",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MapPackage",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "facepunch.flatgrass",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Game Server Token",
+        "Category": "Steam Settings",
+        "Description": "Token Steam optionnel pour garder la même identité serveur. Génère +net_game_server_token.",
+        "Keywords": "steam,token,server",
+        "FieldName": "GameServerToken",
+        "InputType": "password",
+        "IsFlagArgument": false,
+        "ParamFieldName": "net_game_server_token",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Custom Server Args",
+        "Category": "Advanced",
+        "Description": "Arguments supplémentaires ajoutés à la fin de la ligne de commande.",
+        "Keywords": "custom,args,advanced",
+        "FieldName": "CustomServerArgs",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "CustomServerArgs",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {}
+    }
+]
