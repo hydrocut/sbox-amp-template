@@ -7,5 +7,6 @@
   "origin": "https://github.com/hydrocut/sbox-amp-template.git",
   "url": "https://github.com/hydrocut/sbox-amp-template",
   "imagefile": "",
-  "prefix": "TeamKit"
+  "prefix": "TeamKit",
+  "repotype": "AppTemplates"
 }
