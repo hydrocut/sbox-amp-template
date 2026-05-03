@@ -1,18 +1,18 @@
 [
-    {
-        "UpdateStageName": "SteamCMD Download",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "1892930",
-        "UpdateSourceArgs": "590830",
-        "SkipOnFailure": false
-    },
-    {
-        "UpdateStageName": "Set Linux Executable Permission",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "Executable",
-        "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"chmod +x \\\"{{$FullBaseDir}}sbox-server.exe\\\" 2>/dev/null || true\"",
-        "SkipOnFailure": true
-    }
+  {
+    "UpdateStageName": "SteamCMD Download",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "SteamCMD",
+    "UpdateSourceData": "1892930",
+    "UpdateSourceArgs": "590830",
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Set Linux Executable Permission",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "Executable",
+    "UpdateSourceData": "/bin/bash",
+    "UpdateSourceArgs": "-c \"chmod +x \\\"{{$FullBaseDir}}sbox-server.exe\\\" 2>/dev/null || true\"",
+    "SkipOnFailure": true
+  }
 ]
