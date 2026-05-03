@@ -58,13 +58,13 @@
         "FieldName": "GameServerToken",
         "InputType": "password",
         "IsFlagArgument": false,
-        "ParamFieldName": "GameServerToken",
+        "ParamFieldName": "net_game_server_token",
         "IncludeInCommandLine": true,
         "DefaultValue": "",
         "Placeholder": "",
         "Suffix": "",
         "Hidden": false,
-        "SkipIfEmpty": false,
+        "SkipIfEmpty": true,
         "EnumValues": {}
     },
     {
@@ -81,7 +81,7 @@
         "Placeholder": "",
         "Suffix": "",
         "Hidden": false,
-        "SkipIfEmpty": false,
+        "SkipIfEmpty": true,
         "EnumValues": {}
     }
 ]

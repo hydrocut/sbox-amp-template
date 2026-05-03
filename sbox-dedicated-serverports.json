@@ -1,16 +1,16 @@
 [
     {
-        "Protocol": "Both",
+        "Protocol": "UDP",
         "Port": "27015",
-        "Name": "Main Game Port",
-        "Description": "Port used for main game traffic",
-        "Ref": "MainGamePort"
+        "Name": "Game Port",
+        "Description": "Port principal du serveur s&box",
+        "Ref": "GamePort"
     },
     {
-        "Protocol": "Both",
+        "Protocol": "UDP",
         "Port": "27016",
         "Name": "Steam Query Port",
-        "Description": "Port used for main game traffic",
+        "Description": "Port de query Steam / navigateur serveur",
         "Ref": "SteamQueryPort"
     }
 ]
