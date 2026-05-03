@@ -1,0 +1,16 @@
+[
+  {
+    "Protocol": "UDP",
+    "Port": 27015,
+    "Ref": "ServerPort",
+    "Name": "Server Port",
+    "Description": "Port principal du serveur s&box"
+  },
+  {
+    "Protocol": "UDP",
+    "Port": 27016,
+    "Ref": "QueryPort",
+    "Name": "Query Port",
+    "Description": "Port de requête Steam / navigateur serveur"
+  }
+]
