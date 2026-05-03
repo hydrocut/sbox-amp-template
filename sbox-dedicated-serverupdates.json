@@ -12,7 +12,7 @@
     "UpdateSourcePlatform": "Linux",
     "UpdateSource": "SetExecutableFlag",
     "UpdateSourceArgs": "{{$FullBaseDir}}sbox-server.sh",
-    "SkipOnFailure": false
+    "SkipOnFailure": true
   },
   {
     "UpdateStageName": "Make Linux apphost executable",
